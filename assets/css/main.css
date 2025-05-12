@@ -777,6 +777,7 @@ section,
   border: 2px solid var(--accent-color);
 }
 
+
 /*--------------------------------------------------------------
 # Portfolio Section
 --------------------------------------------------------------*/
@@ -1267,6 +1268,8 @@ section,
   color: var(--accent-color);
 }
 
+
+
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
@@ -1287,3 +1290,10 @@ section,
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   border-radius: 15px;
 }
+
+.slider-image {
+  max-width: 100%;
+  max-height: 300px;
+  object-fit: contain;
+}
+
