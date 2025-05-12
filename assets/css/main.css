@@ -1273,3 +1273,17 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+.border-purple {
+  border: 1px solid #8e44ad !important;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 15px;
+}
